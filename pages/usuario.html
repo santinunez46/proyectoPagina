@@ -34,54 +34,59 @@
 
     </header>
     <main>
-        <form action="">
-            <label for="name">
-                <span>Ingrese su nombre</span>
-                <input type="text" id="name" placeholder="Ingresa tu nombre">
-            </label>
-            <label for="lastname">
-                <span>Ingrese su apellido</span>
-                <input type="text" id="lastname" placeholder="Ingresa tu apellido">
-            </label>
-            <label for="mail">
-                <span>Ingrese su mail</span>
-                <input type="email" id="mail" placeholder="Ingresa tu mail" readonly>
-            </label>
-            <label for="contraseña">
-                <span>Ingrese su contraseña</span>
-                <input type="password" id="contraseña" placeholder="Ingresa tu contraseña" required>
-            </label>
-            <label for="date">
-                <span>Ingrese su fecha de nacimiento</span>
-                <input type="date" id="date">
-            </label>
-            <div>
-                <p>Ingrese su sexo</p>
-                <label for="Hombre">Hombre</label>
-                <input type="radio" name="Sexo" id="Soy Hombre" value="Hombre">
-                <label for="Mujer">Mujer</label>
-                <input type="radio" name="Sexo" id="Soy Mujer" value="Mujer">
-                <label for="x">X</label>
-                <input type="radio" name="Sexo" id="Soy x" value="X">
-            </div>
-            <div>
-                <label for="Aceptar">Acepta los terminos y condiciones</label>
+        
+            <form action="">
+                <div class="datos1">
+                <label for="name">
+                    <span>Ingrese su nombre</span>
+                    <input type="text" id="name" placeholder="Ingresa tu nombre">
+                </label>
+                <label for="lastname">
+                    <span>Ingrese su apellido</span>
+                    <input type="text" id="lastname" placeholder="Ingresa tu apellido">
+                </label>
+                <label for="mail">
+                    <span>Ingrese su mail</span>
+                    <input type="email" id="email" placeholder="Ingresa tu mail">
+                </label>
+                <label for="contraseña">
+                    <span>Ingrese su contraseña</span>
+                    <input type="password" id="contraseña" placeholder="Ingresa tu contraseña" required>
+                </label>
+                <label for="date">
+                    <span>Ingrese su fecha de nacimiento</span>
+                    <input type="date" id="date">
+                </label>
+                </div>
+                <div class="sexo">
+                    <p>Ingrese su Sexo: </p>
+                </div>
+                <div class="datos2">
+                    <label for="Hombre">Hombre</label>
+                    <input type="radio" name="Sexo" id="Soy Hombre" value="Hombre">
+                    <label for="Mujer">Mujer</label>
+                    <input type="radio" name="Sexo" id="Soy Mujer" value="Mujer">
+                    <label for="x">X</label>
+                    <input type="radio" name="Sexo" id="Soy x" value="X">
+                </div>
+                <div class="datos3"><label for="Aceptar">Acepta los términos y condiciones</label>
                 <input type="checkbox" name="Aceptar" id="Aceptar" value="1">
             </div>
         </form>
     </main>
     <footer>
-        <section class="pie">
-            <ul>
+        <div>
+            <ul class="pie">
                 <li><a href="#">Inicio</a>
-                <li><a href="#">Quienes Somos</a>
-                <li><a href="#">Contacto</a>
+                <li><a href="../pages/quienesSomos.html">Quienes Somos</a>
                 <li><a href="#">Cambios y devoluciones</a>
+                
             </ul>
-        </section>
-        <section>
-            <img src="../img/whatsApp2.png" alt=""></a>
-        </section>
+        </div>
+        <div>
+            <a href=""><img src="../img/whatsapp2.png" alt=""></a>
+        </div>
+        
     </footer>
 </body>
 </html>
